@@ -1,6 +1,6 @@
 # Word
 
-VB6 working copy of `Word` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: prjWordProperties. Output: `WordProp.exe`.
+VB6 Word Property Search (`WordProp.exe` / `prjWordProperties`) that walks a folder for `*.doc` (filterable) and matches Word document property values; includes helper `getfiles.vbs`. Open `prjWordProperties.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -8,7 +8,7 @@ VB6 working copy of `Word` from Dave Robinson's OneDrive Historical Dev `VB` fol
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `prjWordProperties` (`prjWordProperties.vbp`) | VB6 | WinForms exe | prjWordProperties |
+| `prjWordProperties` (`prjWordProperties.vbp`) | VB6 | WinForms exe | Search Word docs by document properties |
 
 ## How to open
 
@@ -18,6 +18,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 ## Requirements
 
 - Visual Basic 6.0 IDE
+- Microsoft Word / document property access as used by the form
 
 ## Attribution and provenance
 
